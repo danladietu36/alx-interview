@@ -1,4 +1,6 @@
-#!/usr/python3
+#!/usr/bin/python3
+""" A python script to compute Pascal's triangle for n number
+"""
 
 def pascal_triangle(n):
     """
