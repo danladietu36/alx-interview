@@ -2,6 +2,7 @@
 """ A python script to compute Pascal's triangle for n number
 """
 
+
 def pascal_triangle(n):
     """
     A pascal triangle that returns a list of integers representing
