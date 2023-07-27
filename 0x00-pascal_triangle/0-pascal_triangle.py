@@ -11,13 +11,12 @@ def pascal_triangle(n):
 
     triangle = []
 
-    if (n <= 0):
+    if n <= 0:
         return triangle
-
     for x in range(n):
         tmp_list = []
 
-        for y in range(x + 1):
+        for y in range(x+1):
             if y == 0 or y == x:
                 tmp_list.append(1)
             else:
