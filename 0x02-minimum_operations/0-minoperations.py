@@ -1,13 +1,9 @@
 #!/usr/bin/python3
-
-
 """
-    The letter H is the only character in a text file.
-    There are only two operations that your text editor can do on 
-	this file: Copy All and Paste. Write a method that calculates 
-	given a number n.
-    the least amount of processes necessary to produce exactly 
-	n H characters in the file.
+   In a text file, there is a single character H. Your text editor can
+   execute only two operations in this file: Copy All and Paste. Given a
+   number n, write a method that calculates the fewest number of
+   operations needed to result in exactly n H characters in the file.
 """
 
 
