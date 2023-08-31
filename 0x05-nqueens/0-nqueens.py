@@ -23,8 +23,8 @@ def is_safe(q, x, array):
     if x in array:
         return (False)
     else:
-        return all(abs(array[column] - x) !=
-                   q - column for column in range(q))
+        return all(abs(array[column] - x) != q - column
+                   for column in range(q))
 
 
 def init():
@@ -37,7 +37,7 @@ def init():
         print("N must be a number")
         sys.exit(1)
     if the_queen < 4:
-        print("N must e at least 4")
+        print("N must be at least 4")
         sys.exit(1)
     return (the_queen)
 
