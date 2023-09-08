@@ -1,10 +1,10 @@
 #!/usr/bin/node
-// Star War API interview question implemented using nodejs
+// using star wars API
 
 const request = require('request');
 const FILMID = process.argv[2];
 
-// Star war root or base url
+// Request URL
 const URL_BASE = 'https://swapi-api.hbtn.io/api/films';
 
 function doRequest (url) {
@@ -19,7 +19,7 @@ function doRequest (url) {
   });
 }
 
-// Using the function, doRequest to make a call
+// Usage:
 
 async function main (filmID) {
   const res = await doRequest(`${URL_BASE}/${filmID}`);
