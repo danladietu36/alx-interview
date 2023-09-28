@@ -12,7 +12,7 @@ def island_perimeter(grid):
     n = len(grid)
     for i, row in enumerate(grid):
         m = len(row)
-        for j, cell in enumerate(grid):
+        for j, cell in enumerate(row):
             if cell == 0:
                 continue
             edges = (
